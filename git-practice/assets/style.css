@@ -1,0 +1,316 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* body
+{
+    background-color:
+    #eaeaea;
+} */
+html
+{
+    font-family: 'BIZ UDMincho', serif;;
+}
+.bar-1
+{
+    display: none;
+}
+.header
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(48, 45, 45);
+}
+.header nav
+{
+    display: inline;
+}
+.header nav a
+{
+    color: aliceblue;
+    padding: 15px 5px;
+    /* padding-top: 14px; */
+    display: inline-block;
+    letter-spacing: 3px;
+    
+    text-decoration: none;
+    font-weight: 900;
+}
+.header nav
+{
+    margin-left: 2%; 
+}
+.header nav .logo-img
+{
+    height: 40px;
+    padding: 5px 5px;
+
+}
+div .search
+{
+    border-style: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 5px;
+    color: white;
+    width: 30%;
+    margin-left: 36.5%;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+div img
+{
+    height: 40px;
+    position: absolute;
+    width: 5%;
+    margin-left: 1%;
+    margin-top: 4px;
+}
+div button
+{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 5%;
+    height: 30px;
+
+}
+.content
+{
+    height: 950px;
+    width: 100%;
+    /* background-color: rgba(57, 167, 216, 0.5); */
+    background-image: url(./images/videoblocks-blue-abstract-tech-corporate-banner-motion-background-video-animation-ultra-hd-4k-3840x2160_bqxkqxcrz_thumbnail-1080_01.png);
+    background-position: top;
+    
+}
+.content h1
+{
+    text-align: center;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+    padding: 0px;
+    font-family: 'Spectral SC', serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.content h3
+{
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    opacity: 0.8;
+}
+.content .content-btn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: 'Spectral SC', serif;
+    letter-spacing: 3px;
+    width: 10%;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 20px;
+    height: 35px;
+    margin-top: 20px;
+}
+ .content .our-work
+{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    top: 60px;
+} 
+.our-work h3
+{
+    font-size: 30px;
+    font-weight: 900;
+}
+.our-work .work-1
+{
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    margin-left: 1.8%; 
+    margin-top: 25px;
+    box-sizing: border-box;
+    
+}
+.work-1 img
+{
+    height: 300px;
+    width: 30%;
+    box-sizing: border-box;
+    transition: 0.2s  ease-in-out;
+    
+}
+.our-work .work-1 img:hover
+{
+    /* border: 2px solid rgb(25, 151, 201); */
+    -webkit-box-shadow: -5px 16px 36px -5px rgba(0,0,0,0.89);
+-moz-box-shadow: -5px 16px 36px -5px rgba(0,0,0,0.89);
+box-shadow: -5px 16px 36px -5px rgba(0,0,0,0.89);
+    cursor: pointer;
+    
+}
+.content .footer
+{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(48, 45, 45);
+    margin-top: 200px;
+}
+.footer h3
+{
+    position: relative;
+    top: 20px;
+    color: white;
+    
+}
+.footer form .footer-text
+{
+    background: transparent;
+    font-family:'Spectral SC', serif;
+    color: white;  
+    border: 1px solid white; 
+    /* border-radius: 5px; */
+    width: 30%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    height: 30px;
+}
+.footer form .footer-text:hover
+{
+    cursor: pointer;
+}
+.footer h3 i
+{
+    cursor: pointer;
+}
+.footer h2
+{
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    opacity: 0.8;
+    color: white;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .header nav
+    {
+        display: none;
+    }
+    .header
+    {
+        height: 80px;
+    }
+    .header .bar-1
+    {
+        display: inline-block ;
+    }
+    .header input 
+    {
+        width: 55%;
+        margin-left: 2%;
+        margin-top: 14px;
+        font-size: 25px;
+        height: 50px;
+    }
+    .header button 
+    {
+        height: 50px;
+        width: 10%;
+        font-size: 30px;
+        margin-left: 2%;
+    }
+    .header img 
+    {
+        height:  50px;
+        width: 110px;
+        margin-top: 15px;
+    }
+    .content h1 
+    {
+        font-size: 35px;
+        position: relative;
+        top: 20px;
+    }
+    .content h3 
+    {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .content .content-btn
+    {
+        width: 30%;
+        height: 40px;
+        font-size: 25px;
+    }
+    .our-work
+    {
+        width: 100%;
+    }
+    .our-work h3
+    {
+        font-size: 40px;
+    } 
+    .our-work .work-1
+    {
+        display: block;
+        width: 100%;
+        height: 500px;
+        margin-left: 0px;
+        
+    }
+    .work-1 img 
+    {
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        margin-top: 20px;
+        border: 2px solid rgb(11, 129, 226);
+    }
+    .content .footer
+    {
+        margin-top: 1450px;
+        height: 600px;
+    }
+    .content .footer h3 
+    {
+        font-size: 40px;
+    }
+    .content .footer .footer-text
+    {
+        height: 50px;
+        font-size: 30px;
+        width: 60%;
+    }
+    .content .footer i 
+    {
+        font-size: 40px;
+    }
+    .content .footer h2 
+    {
+        font-size: 25px;
+    }
+}
